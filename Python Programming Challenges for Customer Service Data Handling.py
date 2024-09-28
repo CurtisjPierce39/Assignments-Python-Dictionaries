@@ -6,7 +6,7 @@ def add_service_ticket():
         "ticket number": len(service_tickets_list) + 1,
         "customer": "",
         "issue": "",
-        "status": "Open"
+        "status": ""
 }
 
     service_ticket["customer"] = input("Please enter customer name: ")
